@@ -1,0 +1,28 @@
+.head {
+    
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top center; 
+}
+.head .back {
+    height: 70vh;
+    width: 88%;
+    position: relative;
+    top: 0;
+    object-fit: cover;
+    align-items: center;
+    z-index: 1;
+}
+
+
+.top-text {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    z-index: 3;
+
+}
